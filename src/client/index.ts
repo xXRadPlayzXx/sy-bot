@@ -22,8 +22,8 @@ class SyClient extends Client {
 
 	public logger: Logger = new SyLogger();
 	public defaultEmbedColor: ColorResolvable = 'AQUA';
-  public developers: string[] = ['804406341271289907'];
-  
+	public developers: string[] = ['804406341271289907'];
+
 	public get commands(): Collection<string, Command> {
 		return this._commands;
 	}
