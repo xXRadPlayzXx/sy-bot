@@ -1,0 +1,25 @@
+{
+  "name": "sy-utilities",
+  "version": "1.0.0",
+  "main": "src/bot.ts",
+  "author": "RadPlayz",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "date-fns": "^2.16.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "log-symbols": "^4.0.0",
+    "mongoose": "^5.11.14"
+  },
+  "scripts": {
+    "start": "cls && ts-node src/bot.ts && cls",
+    "dev": "cls && nodemon --exec \"cls && ts-node \" src/bot.ts && cls",
+    "format": "cls && prettier --write ./src && cls",
+    "build": "cls && tsc && cls"
+  },
+  "devDependencies": {
+    "@types/date-fns": "^2.6.0"
+  }
+}
